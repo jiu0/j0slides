@@ -1,0 +1,70 @@
+@charset "utf-8";
+/*****  
+a_temp.css 此为插件不相干的样式，可以不用
+Version: 20160310gz
+Author: https://github.com/jiu0
+*****/
+
+
+
+
+/**** reset.css */  
+@charset "utf-8";
+body{border:0;margin:0;}
+h1,h2,h3,h4,h5,h6{padding-top:0;padding-bottom:0;margin-top:0;margin-bottom:0;font-weight:400}
+dl{margin-top:0;margin-bottom:0}dd{margin-left:0}
+ul,ol{padding:0;margin:0;list-style:none}
+p{margin-top:0;margin-bottom:0}
+strong,b,small{font-weight:400}em,i{font-style:normal}u{text-decoration:none}
+img{border:none;-ms-interpolation-mode:bicubic}
+table{border-collapse:collapse;border-spacing:0}th,td{padding:0}th{font-weight:400}
+form{padding:0;margin:0}
+label,input,button,select,textarea{display:inline-block;*display:inline;*zoom:1;vertical-align:middle;
+padding:0;border:0;margin:0;outline:none;font-family:inherit;font-size:100%;}
+label,select{cursor:pointer}
+button,input,select,textarea{line-height:normal}
+button,select{text-transform:none}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{
+-webkit-appearance:button;cursor:pointer;}
+button[disabled],html input[disabled]{cursor:default}
+button::-moz-focus-inner,input::-moz-focus-inner{padding:0;border:0}
+html button::-moz-focus-inner{border-color:transparent !important}
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]{
+-webkit-appearance:textfield;-webkit-appearance:none}
+textarea{overflow:auto;vertical-align:top}
+video,audio{display:block}
+
+
+/** preset **/
+body{line-height:20px;color:#333;font-size:14px;
+font-family:"Microsoft Yahei","Simsun",Tahoma,arial,Helvetica,verdana,sans-serif;
+overflow-x:hidden;background-color:#fff}
+h1{font-size:22px}h2{font-size:22px}
+h3{font-size:18px}h4,h5,h6{font-size:14px}
+
+:focus,:active{outline:none;}
+
+a:link{color:#333;text-decoration:none}
+a:visited{color:#666;text-decoration:none}
+a:hover{color:#333;text-decoration:none}
+a:focus,a:active{color:#ff0000;text-decoration:none;}
+
+a:focus,a:active{outline:0 none}
+:focus,:active{outline:0 none}
+*{-webkit-touch-callout:none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color:transparent;-webkit-appearance:none;}
+
+:-moz-placeholder{color:#ddd}
+::-moz-placeholder{color:#ddd}
+::-webkit-input-placeholder{color:#ddd}
+:-ms-input-placeholder{color:#ddd}
+
+
+.inb{display:inline-block;*display:inline;*zoom:1;vertical-align:middle;}
+.cf:before,.cf:after{display:table;line-height:0;content:' '}.cf:after{clear:both}.cf{*zoom:1}
+.hide{display:none!important}
+.ht1{height:100%}
+.tac{text-align:center;}
+
+
+
+/*****  jiu0-20160330gz *****/
