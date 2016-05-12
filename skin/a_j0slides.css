@@ -1,0 +1,74 @@
+@charset "utf-8";
+/*****
+a_j0slides.css-20160410gz
+Author: https://github.com/jiu0
+*/
+
+
+
+
+
+
+
+
+
+
+
+/** j0box core  **/
+.j0box{}
+.j0as{}
+.j0a{cursor:pointer;}
+.j0bs{}
+.j0b{display:none;}
+.j0arr{cursor:pointer;}
+.j0prev{}
+.j0next{}
+.j0onff{}
+
+
+
+
+/** j0box #j0dev skin  **/
+#j0dev .j0a.now{color:#f00;}
+#j0dev .j0b.curr{background-color:#ddd;}
+#j0dev .j0prev:after{content:'<';}
+#j0dev .j0next:after{content:'>';}
+#j0dev .j0onff:after{content:'▷';}
+#j0dev .j0ing:after{content:'||';}
+
+
+/** j0box #j0demo1 skin  **/
+#j0demo1{text-align:center;}
+#j0demo1 .j0as{}
+#j0demo1 .j0a{display:inline-block;*display:inline;*zoom:1;vertical-align:top; width:30px;height:30px;line-height:30px;border:1px solid #ccc;background-color:#fff;text-align:center;}
+#j0demo1 .j0a.now{color:#f00;}
+#j0demo1 .j0b{min-height:200px;}
+#j0demo1 .j0b.curr{background-color:#ddd;}
+#j0demo1 .j0arr{margin:0 50px;line-height:50px;color:#f00;font-size:36px;}
+#j0demo1 .j0prev:after{content:'<';}
+#j0demo1 .j0next:after{content:'>';}
+#j0demo1 .j0onff{display:block;line-height:50px;color:#f00;font-size:36px;}
+#j0demo1 .j0onff:after{content:'▷';}
+#j0demo1 .j0ing:after{content:'||';}
+
+
+
+/** j0box #j0demo2 skin  **/
+#j0demo2{text-align:center;}
+#j0demo2 .j0as{}
+#j0demo2 .j0a{display:inline-block;*display:inline;*zoom:1;vertical-align:top; width:30px;height:30px;line-height:30px;border:1px solid #ccc;background-color:#fff;text-align:center;}
+#j0demo2 .j0a.now{color:#f00;}
+#j0demo2 .j0b{min-height:200px;}
+#j0demo2 .j0b.curr{background-color:#ddd;}
+#j0demo2 .j0arr{margin:0 50px;line-height:50px;color:#f00;font-size:36px;}
+#j0demo2 .j0prev:after{content:'<';}
+#j0demo2 .j0next:after{content:'>';}
+#j0demo2 .j0onff{display:block;line-height:50px;color:#f00;font-size:36px;}
+#j0demo2 .j0onff:after{content:'▷';}
+#j0demo2 .j0ing:after{content:'||';}
+
+
+
+
+
+/*****  jiu0-20160330gz *****/
