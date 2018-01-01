@@ -14,61 +14,109 @@ Author: https://github.com/jiu0
 
 
 
-/** j0box core  **/
-.j0box{}
-.j0as{}
-.j0a{cursor:pointer;}
-.j0bs{}
-.j0b{display:none;}
-.j0arr{cursor:pointer;}
-.j0prev{}
-.j0next{}
-.j0onff{}
+/** j0sbox core  **/
+.j0sbox{}
+.j0sas{}
+.j0sa{cursor:pointer;}
+.j0sbs{}
+.j0sb{display:none;}
+.j0sarr{cursor:pointer;}
+.j0sprev{}
+.j0snext{}
+.j0sonff{}
 
 
 
 
-/** j0box #j0dev skin  **/
-#j0dev .j0a.now{color:#f00;}
-#j0dev .j0b.curr{background-color:#ddd;}
-#j0dev .j0prev:after{content:'<';}
-#j0dev .j0next:after{content:'>';}
-#j0dev .j0onff:after{content:'▷';}
-#j0dev .j0ing:after{content:'||';}
+/** j0sbox .j0sdev skin  **/
+.j0sdev .j0sa.now{color:#f00;}
+.j0sdev .j0sb.curr{background-color:#ddd;}
+.j0sdev .j0sprev:after{content:'<';}
+.j0sdev .j0snext:after{content:'>';}
+.j0sdev .j0sonff:after{content:'▷';}
+.j0sdev .j0ing:after{content:'||';}
 
 
-/** j0box #j0demo1 skin  **/
-#j0demo1{text-align:center;}
-#j0demo1 .j0as{}
-#j0demo1 .j0a{display:inline-block;*display:inline;*zoom:1;vertical-align:top; width:30px;height:30px;line-height:30px;border:1px solid #ccc;background-color:#fff;text-align:center;}
-#j0demo1 .j0a.now{color:#f00;}
-#j0demo1 .j0b{min-height:200px;}
-#j0demo1 .j0b.curr{background-color:#ddd;}
-#j0demo1 .j0arr{margin:0 50px;line-height:50px;color:#f00;font-size:36px;}
-#j0demo1 .j0prev:after{content:'<';}
-#j0demo1 .j0next:after{content:'>';}
-#j0demo1 .j0onff{display:block;line-height:50px;color:#f00;font-size:36px;}
-#j0demo1 .j0onff:after{content:'▷';}
-#j0demo1 .j0ing:after{content:'||';}
-
-
-
-/** j0box #j0demo2 skin  **/
-#j0demo2{text-align:center;}
-#j0demo2 .j0as{}
-#j0demo2 .j0a{display:inline-block;*display:inline;*zoom:1;vertical-align:top; width:30px;height:30px;line-height:30px;border:1px solid #ccc;background-color:#fff;text-align:center;}
-#j0demo2 .j0a.now{color:#f00;}
-#j0demo2 .j0b{min-height:200px;}
-#j0demo2 .j0b.curr{background-color:#ddd;}
-#j0demo2 .j0arr{margin:0 50px;line-height:50px;color:#f00;font-size:36px;}
-#j0demo2 .j0prev:after{content:'<';}
-#j0demo2 .j0next:after{content:'>';}
-#j0demo2 .j0onff{display:block;line-height:50px;color:#f00;font-size:36px;}
-#j0demo2 .j0onff:after{content:'▷';}
-#j0demo2 .j0ing:after{content:'||';}
+/** j0sbox .j0sdemo1 skin  **/
+.j0sdemo1{text-align:center;}
+.j0sdemo1 .j0sas{margin:10px;}
+.j0sdemo1 .j0sa{display:inline-block;*display:inline;*zoom:1;vertical-align:top; width:30px;height:30px;line-height:30px;border:1px solid #ccc;background-color:#fff;text-align:center;}
+.j0sdemo1 .j0sa.now{color:#f00;}
+.j0sdemo1 .j0sb{min-height:90px;}
+.j0sdemo1 .j0sb.curr{background-color:#ddd;}
+.j0sdemo1 .j0sarr{margin:0 50px;line-height:50px;color:#f00;font-size:36px;}
+.j0sdemo1 .j0sprev:after{content:'<';}
+.j0sdemo1 .j0snext:after{content:'>';}
+.j0sdemo1 .j0sonff{ margin:10px;display:block;line-height:50px;color:#f00;font-size:36px;}
+.j0sdemo1 .j0sonff:after{content:'▷';}
+.j0sdemo1 .j0ing:after{content:'||';}
 
 
 
+/** j0sbox .j0sdemo2 skin  **/
+.j0sdemo2{text-align:center;}
+.j0sdemo2 .j0sas{margin:10px;}
+.j0sdemo2 .j0sa{display:inline-block;*display:inline;*zoom:1;vertical-align:top; width:30px;height:30px;line-height:30px;border:1px solid #ccc;background-color:#fff;text-align:center;}
+.j0sdemo2 .j0sa.now{color:#f00;}
+.j0sdemo2 .j0sb{min-height:90px;}
+.j0sdemo2 .j0sb.curr{background-color:#ddd;}
+.j0sdemo2 .j0sarr{margin:0 50px;line-height:50px;color:#f00;font-size:36px;}
+.j0sdemo2 .j0sprev:after{content:'<';}
+.j0sdemo2 .j0snext:after{content:'>';}
+.j0sdemo2 .j0sonff{margin:10px;display:block;line-height:50px;color:#f00;font-size:36px;}
+.j0sdemo2 .j0sonff:after{content:'▷';}
+.j0sdemo2 .j0ing:after{content:'||';}
+
+
+/** j0sbox .j0sdemo3 skin  **/
+.j0sdemo3{position:relative; text-align:center;}
+.j0sdemo3 .j0sas{position:absolute;left:0;bottom:3%;width:90%;padding:0 5%;}
+.j0sdemo3 .j0sa{display:inline-block;*display:inline;*zoom:1;vertical-align:top; width:30px;height:30px;line-height:30px;border:1px solid #ccc;background-color:#fff;text-align:center;}
+.j0sdemo3 .j0sa.now{color:#f00;}
+.j0sdemo3 .j0sb{min-height:90px;}
+.j0sdemo3 .j0sb.curr{background-color:#ddd;}
+.j0sdemo3 .j0sarr{position:absolute;bottom:0;width:30px;height:100%;
+line-height:50px;background-color:rgba(0,0,0,.4); color:#fff;font-size:30px;}
+.j0sdemo3 .j0sarr:after{position:absolute;left:50%;top:50%;
+margin-left:-15px;margin-top:-15px;
+width:30px;height:30px;line-height:30px;}
+
+.j0sdemo3 .j0sprev{left:0;}
+.j0sdemo3 .j0snext{right:0;}
+.j0sdemo3 .j0sprev:after{content:'<';}
+.j0sdemo3 .j0snext:after{content:'>';}
+
+.j0sdemo3 .j0sonff{position:absolute;left:50%;top:50%;
+margin-left:-15px;margin-top:-15px;
+width:30px;height:30px;line-height:30px;color:#f00;font-size:18px;}
+.j0sdemo3 .j0sonff:after{content:'▷';}
+.j0sdemo3 .j0ing:after{content:'||';}
+
+
+
+/** j0sbox .j0sdemo4 skin  **/
+.j0sdemo4{position:relative; text-align:center;}
+.j0sdemo4 .j0sas{display:non e;position:absolute;left:0;bottom:3%;width:90%;padding:0 5%;}
+.j0sdemo4 .j0sa{display:inline-block;*display:inline;*zoom:1;vertical-align:top; width:10px;height:10px;line-height:10px;border:1px solid #ccc;background-color:#fff;text-align:center;border-radius:50%;color:transparent;font:0/0 a;text-shadow:none;}
+.j0sdemo4 .j0sa.now{border:1px solid #c9c;background-color:#c9c;color:#c9c;}
+.j0sdemo4 .j0sb{min-height:90px;}
+.j0sdemo4 .j0sb.curr{background-color:#ddd;}
+.j0sdemo4 .j0sarr{position:absolute;bottom:0;width:30px;height:100%;
+line-height:50px;background-color:rgba(0,0,0,.4); color:#fff;font-size:30px;}
+.j0sdemo4 .j0sarr:after{position:absolute;left:50%;top:50%;
+margin-left:-15px;margin-top:-15px;
+width:30px;height:30px;line-height:30px;}
+
+.j0sdemo4 .j0sprev{left:0;}
+.j0sdemo4 .j0snext{right:0;}
+.j0sdemo4 .j0sprev:after{content:'<';}
+.j0sdemo4 .j0snext:after{content:'>';}
+
+.j0sdemo4 .j0sonff{display:none;position:absolute;left:50%;top:50%;
+margin-left:-15px;margin-top:-15px;
+width:30px;height:30px;line-height:30px;color:#f00;font-size:18px;}
+.j0sdemo4 .j0sonff:after{content:'▷';}
+.j0sdemo4 .j0ing:after{content:'||';}
 
 
 /*****  jiu0-20160330gz *****/
