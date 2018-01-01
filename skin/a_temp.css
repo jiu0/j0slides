@@ -58,7 +58,7 @@ a:focus,a:active{outline:0 none}
 ::-webkit-input-placeholder{color:#ddd}
 :-ms-input-placeholder{color:#ddd}
 
-
+*{-webkit-touch-callout:none;-webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color:transparent;-webkit-appearance:none;}
 .inb{display:inline-block;*display:inline;*zoom:1;vertical-align:middle;}
 .cf:before,.cf:after{display:table;line-height:0;content:' '}.cf:after{clear:both}.cf{*zoom:1}
 .hide{display:none!important}
