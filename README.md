@@ -1,7 +1,7 @@
 # j0slides
 
 ## slides via hide show little pic slider or mobile slider jquery plugin
-## 隐现法处理图片或内容轮换广告jquery插件 可做手机端或PC端
+## 隐现法处理图片或内容轮换广告jquery插件 适用于手机端或PC端
 
 
 * slides via hide show little simply and useful jquery slider plugin on 2k~4k
